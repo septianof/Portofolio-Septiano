@@ -1,0 +1,195 @@
+:root { 
+    --mainColor : #252734;
+    --SecondaryColor : #333646 ;
+    --acsentColor : #FF9100;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--SecondaryColor) !important;
+    z-index: 10;
+}
+
+#nav {
+    transition: background-color 0.5s ease; 
+}
+
+/* End Navbar */
+
+/* Profil */
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#profil {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#profil h1 {
+    font-size: 2.4rem;
+}
+
+#profil h2 {
+    font-weight: 300;
+}
+
+#profil p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#profil a:hover {
+    color: #fff;
+}
+
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 180px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgb(255, 166, 0);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.cv:hover {
+    color: #007BFF; 
+}
+
+.social-icon svg {
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon svg:hover {
+    transform: scale(1.10); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Profil */
+
+/* About */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--SecondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+#skill {
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#skill img {
+    width: 15%;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skill img:hover {
+    transform: scale(1.10); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* End Skill */
+
+/* Sertifikat */
+
+#sertifikat {
+    background-color: var(--SecondaryColor);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#sertifikat img {
+    width: 30%;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sertifikat img:hover {
+    transform: scale(1.08); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+/* End Sertifikat */
+
+/* Galeri */
+
+#galeri .container {
+    padding: 80px 10px;
+}
+
+#galeri iframe {
+    width: 100%;
+}
+
+/* End Galeri */
+
+/* Footer */
+
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon-footer svg:hover {
+    transform: scale(1.10); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+
+/* End Footer */
+
